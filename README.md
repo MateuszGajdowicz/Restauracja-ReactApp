@@ -47,3 +47,15 @@ Baza danych przechowująca informacje o menu, zamówieniach, pracownikach
 Backend: Java Spring
 Frontend: React JS
 Baza danych: PostreSQL
+
+# Uruchamianie
+Musicie miec zainstalowanego npm jesli nie macie
+
+1. Wejdź na: https://nodejs.org/
+2. pobierz LTS 
+
+W IDE po pullu
+1. cd Restaurant-reactApp
+2. npm install
+3. npm run dev
+
