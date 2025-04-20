@@ -5,12 +5,11 @@ function GotoweZamowienia({setDone,Done}){
 
 
     function handleOrderRemove(index){
-        setOrdersList(prev=>prev.filter((_,element)=>element!==index))
+        setDone(prev=>prev.filter((_,element)=>element!==index))
 
     }
 
     function handleChangeInProcess(index){
-        setInProcess(prev=>[...prev, OrdersList[index]])
         setOrdersList(prev=>prev.filter((_,element)=>element!==index))
 
 
