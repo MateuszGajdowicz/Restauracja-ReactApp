@@ -3,13 +3,9 @@ import ZamowieniaDoRealizacji from './ZamowieniaDoRealizacji.jsx';
 import RealizacjaZamowien from './RealizacjaZmowien.jsx';
 import GotoweZamowienia from './GotoweZamowienia.jsx';
 import { useState } from 'react';
-function KucharzPanel(){
+function KucharzPanel({OrdersList,setOrdersList}){
 
-    const [OrdersList, setOrdersList] = useState([{OrderName:"Jajka",
-        OrderDescription:"Na twardo"
-        },{OrderName:"Pasztet",
-        OrderDescription:"PasztetPasztetPasztetPasztetPasztetPasztetPasztetPasztetPasztetPasztetPasztetPasztet"}])
-
+   
     const [InProcess, setInProcess] = useState([])
 
     const [Done, setDone] = useState([]);
