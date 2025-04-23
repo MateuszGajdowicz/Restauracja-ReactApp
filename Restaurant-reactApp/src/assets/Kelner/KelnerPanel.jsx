@@ -2,7 +2,8 @@ import './KelnerPanel.css'
 import { useState } from 'react';
 import MenuKelner from './MenuKelner.jsx';
 import KelnerZamowienie from './KelnerZamowienie.jsx';
-function KelnerPanel({orderDetails,setOrderDetails,OrdersList,setOrdersList }){
+import KelnerPlatnosci from './KelnerPlatnosci.jsx';
+function KelnerPanel({setdone,done,orderDetails,setOrderDetails,OrdersList,setOrdersList }){
 
     const menuList = [
         {
@@ -55,6 +56,7 @@ function KelnerPanel({orderDetails,setOrderDetails,OrdersList,setOrdersList }){
         <>
         <MenuKelner  setSelectedIndex={setSelectedIndex} menuList={menuList}/>
         <KelnerZamowienie OrdersList={OrdersList} setOrdersList={setOrdersList} selectedIndex={selectedIndex} orderDetails={orderDetails} setOrderDetails={setOrderDetails} menuList={menuList}/>
+        <KelnerPlatnosci  done={done} setdone = {setdone}setSelectedIndex={setSelectedIndex} menuList={menuList}/>
 
         </>
     );

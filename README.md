@@ -59,3 +59,6 @@ W IDE po pullu
 2. npm install
 3. npm run dev
 
+#Logowanie
+1. kucharz - kucharz, kucharz
+2. kelner - kelner, kelner

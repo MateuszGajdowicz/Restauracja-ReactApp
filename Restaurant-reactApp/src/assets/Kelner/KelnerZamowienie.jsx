@@ -30,7 +30,6 @@ function KelnerZamowienie({selectedIndex,menuList,OrdersList,setOrdersList}){
         <h1>{selectedIndex !== null ? menuList[selectedIndex].name : "Wybierz danie z menu"}</h1>
         <textarea  id="textarea" onChange={(event) =>setOrderDetails({...orderDetails,OrderDetails: event.target.value})}name="" value={orderDetails.OrderDetails} placeholder='Dodatkowe notatki'></textarea>
             <button onClick={sendSelectedToKucharz}>Prześlij na kuchnię</button>
-            <button >Usuń</button>
 
 
         </div>
