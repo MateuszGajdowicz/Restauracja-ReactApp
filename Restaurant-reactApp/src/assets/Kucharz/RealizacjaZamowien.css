@@ -29,3 +29,16 @@ h1{
     }
     
 }
+#nameInput{
+    position: absolute;
+    top: 20%;
+}
+.Inputs{
+    position: absolute;
+    left:65%
+}
+#DodajButton{
+    position: absolute;
+    top: 20%;
+    padding: 0px 20px;
+}
